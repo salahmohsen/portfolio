@@ -67,7 +67,7 @@ export default function Home() {
             building software for an advertising agency, a start-up, a
             student-led design studio, and a huge corporation. My main focus
             these days is building products and leading projects for our clients
-            at Upstatement. In my free time I've also released an online video
+            at Upstatement. In my free time I’ve also released an online video
             course that covers everything you need to know to build a web app
             with the Spotify API. When I’m not at the computer, I’m usually rock
             climbing, hanging out with my wife and two cats, or running around
@@ -83,7 +83,7 @@ export default function Home() {
             building software for an advertising agency, a start-up, a
             student-led design studio, and a huge corporation. My main focus
             these days is building products and leading projects for our clients
-            at Upstatement. In my free time I've also released an online video
+            at Upstatement. In my free time I’ve also released an online video
             course that covers everything you need to know to build a web app
             with the Spotify API. When I’m not at the computer, I’m usually rock
             climbing, hanging out with my wife and two cats, or running around
@@ -99,7 +99,7 @@ export default function Home() {
             building software for an advertising agency, a start-up, a
             student-led design studio, and a huge corporation. My main focus
             these days is building products and leading projects for our clients
-            at Upstatement. In my free time I've also released an online video
+            at Upstatement. In my free time I’ve also released an online video
             course that covers everything you need to know to build a web app
             with the Spotify API. When I’m not at the computer, I’m usually rock
             climbing, hanging out with my wife and two cats, or running around
@@ -115,7 +115,7 @@ export default function Home() {
             building software for an advertising agency, a start-up, a
             student-led design studio, and a huge corporation. My main focus
             these days is building products and leading projects for our clients
-            at Upstatement. In my free time I've also released an online video
+            at Upstatement. In my free time I’ve also released an online video
             course that covers everything you need to know to build a web app
             with the Spotify API. When I’m not at the computer, I’m usually rock
             climbing, hanging out with my wife and two cats, or running around
@@ -131,7 +131,7 @@ export default function Home() {
             building software for an advertising agency, a start-up, a
             student-led design studio, and a huge corporation. My main focus
             these days is building products and leading projects for our clients
-            at Upstatement. In my free time I've also released an online video
+            at Upstatement. In my free time I’ve also released an online video
             course that covers everything you need to know to build a web app
             with the Spotify API. When I’m not at the computer, I’m usually rock
             climbing, hanging out with my wife and two cats, or running around
