@@ -20,7 +20,7 @@ export const ThemeSwitcher = () => {
       name="toggle dark mode"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      <MdLightMode className="scale-100 origin-center hover:scale-125 transition-transform duration-200 ease-in-out " />
+      <MdLightMode className="origin-center scale-100 transition-transform duration-200 ease-in-out hover:scale-125" />
     </button>
   );
 };

@@ -11,6 +11,20 @@ module.exports = {
       colors: {
         night: "#09090a",
         light: "#f7f7f8",
+        faded: "#6b7280",
+      },
+      container: {
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
+      },
+
+      fontFamily: {
+        inter: ["var(--font-inter)", "monospace"],
       },
     },
   },

@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-feature-settings: "liga" 1, "calt" 1, "ss01", "ss03";
-}
-body {
-  text-rendering: optimizeLegibility;
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    font-feature-settings: "liga" 1, "calt" 1, "ss01", "ss03";
+  }
 }
