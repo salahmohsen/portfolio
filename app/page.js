@@ -73,7 +73,7 @@ export default function Home() {
             <br />
             My main focus these days is building products and leading projects
             for our clients at {<A url="#">Upstatement</A>}. In my free time
-            I've also released an {<A url="#">online video course</A>} that
+            I’ve also released an {<A url="#">online video course</A>} that
             covers everything you need to know to build a web app with the
             Spotify API.
             <br />
