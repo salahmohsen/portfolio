@@ -16,7 +16,11 @@ export default function RootLayout({ children }) {
   const title = children;
   return (
     <>
-      <html lang="en" className={inter.className} suppressHydrationWarning>
+      <html
+        lang="en"
+        className={`${inter.className} scroll-smooth`}
+        suppressHydrationWarning
+      >
         <body
           className={
             "text-pretty bg-light leading-relaxed text-night antialiased transition-colors duration-500 ease-in-out selection:bg-night selection:text-light dark:bg-night dark:text-light dark:selection:bg-light dark:selection:text-night"
