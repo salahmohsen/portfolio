@@ -10,8 +10,12 @@ module.exports = {
     extend: {
       colors: {
         night: "#09090a",
+        nightFaded: "#d2d2d2",
+        nightHref: "#f7f7f8",
         light: "#f7f7f8",
-        faded: "#6b7280",
+        lightFaded: "#3f3f3f",
+        lightHref: "#98999b",
+        orange: "#ff490e",
       },
       container: {
         padding: {

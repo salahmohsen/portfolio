@@ -4,6 +4,10 @@
 
 @layer base {
   html {
-    font-feature-settings: "liga" 1, "calt" 1, "ss01", "ss03";
+    font-feature-settings:
+      "liga" 1,
+      "calt" 1,
+      "ss01",
+      "ss03";
   }
 }
