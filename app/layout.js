@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
           }
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <main className="container mx-auto min-h-screen max-w-screen-xl">
+            <div className="container mx-auto min-h-screen max-w-screen-xl py-24  lg:py-0">
               {children}
-            </main>
+            </div>
           </ThemeProvider>
         </body>
       </html>

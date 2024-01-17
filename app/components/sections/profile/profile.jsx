@@ -1,17 +1,17 @@
+import { profileDescription, profileName, profileTitle } from "@/app/data/data";
+
 const Profile = () => {
   return (
     <>
       <h1 className="flex items-baseline text-4xl font-bold tracking-tight sm:text-5xl">
-        <a href="/">
-          <span>Salah Mohsen</span>
-        </a>
+        <a href="/">{profileName}</a>
         <span className="ml-0.5 aspect-square h-2 rounded-full bg-orange"></span>
       </h1>
       <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">
-        Designer & Developer
+        {profileTitle}
       </h2>
       <p className="mt-4 max-w-xs leading-normal dark:text-nightFaded">
-        I build pixel-perfect, accessible products for the web and beyond.
+        {profileDescription}
       </p>
     </>
   );
