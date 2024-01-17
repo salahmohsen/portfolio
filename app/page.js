@@ -128,6 +128,7 @@ export default function Home() {
                   duration={el.duration}
                   description={el.description}
                   skills={el.skills}
+                  link={el.link}
                 />
               ))}
             </ol>
