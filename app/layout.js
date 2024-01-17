@@ -1,6 +1,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
-import ThemeProvider from "./utils/themeProvider";
+import ThemeProvider from "./lib/themeProvider";
+import IntersectionProvider from "./lib/intersectionProvider";
 
 const inter = localFont({
   src: "./fonts/InterVariable.woff2",
@@ -26,10 +27,12 @@ export default function RootLayout({ children }) {
             "text-pretty bg-light leading-relaxed text-night antialiased transition-colors duration-500 ease-in-out selection:bg-night selection:text-light dark:bg-night dark:text-light dark:selection:bg-light dark:selection:text-night"
           }
         >
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="container mx-auto min-h-screen max-w-screen-xl py-24  lg:py-0">
-              {children}
-            </div>
+          <ThemeProvider attribute="class" enableSystem={false}>
+            <IntersectionProvider>
+              <div className="container mx-auto min-h-screen max-w-screen-xl py-24  lg:py-0">
+                {children}
+              </div>
+            </IntersectionProvider>
           </ThemeProvider>
         </body>
       </html>

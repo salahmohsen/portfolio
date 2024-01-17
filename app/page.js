@@ -32,6 +32,91 @@ export default function Home() {
         <Section name="About">
           <Data_About />
         </Section>
+        <Section name="Certificates">
+          <p>
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+            Certificates Certificates Certificates Certificates Certificates
+          </p>
+        </Section>
+        <Section name="Projects">
+          <p>
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+            Projects Projects Projects Projects Projects Projects Projects
+          </p>
+        </Section>
         <Section name="Previous Experience">
           <div>
             <ol className="group/list">
