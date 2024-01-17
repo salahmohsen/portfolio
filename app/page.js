@@ -10,7 +10,7 @@ import Nav from "./components/sections/nav/nav";
 export default function Home() {
   return (
     <div className="lg:flex lg:justify-between lg:gap-4">
-      <div className="fixed -left-12 top-3 z-10 flex w-full justify-end sm:-left-12 lg:hidden">
+      <div className="fixed -left-12 top-3 z-20 flex w-full justify-end sm:-left-12 lg:hidden">
         <ThemeSwitcher />
       </div>
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
