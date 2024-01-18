@@ -1,13 +1,13 @@
-import { Data_About, Data_experience } from "./data/data";
-import { ThemeSwitcher } from "./components/common/buttons/mobileThemeSwitcher";
-import LightswitchButton from "./components/common/buttons/lightSwitchButton";
-import SocialMediaButton from "./components/common/buttons/socialMediaButton";
-import ExperienceItem from "./components/sections/experience/experienceItem";
+import Nav from "./components/sections/nav/nav";
+import { Data_About } from "./data/data";
 import Section from "./components/sections/section";
 import Profile from "./components/sections/profile/profile";
-import Nav from "./components/sections/nav/nav";
 import Experience from "./components/sections/experience/experience";
 import Certificates from "./components/sections/certificates/certificates";
+import Projects from "./components/sections/projects/projects";
+import { ThemeSwitcher } from "./components/common/buttons/mobileThemeSwitcher";
+import SocialMediaButton from "./components/common/buttons/socialMediaButton";
+import LightswitchButton from "./components/common/buttons/lightSwitchButton";
 
 export default function Home() {
   return (
@@ -41,40 +41,7 @@ export default function Home() {
           <Certificates />
         </Section>
         <Section name="Projects">
-          <p>
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-            Projects Projects Projects Projects Projects Projects Projects
-          </p>
+          <Projects />
         </Section>
         <Section name="Previous Experience">
           <Experience />

@@ -1,6 +1,7 @@
 import ExternalLink from "../components/common/externalLink";
-import { FaFreeCodeCamp, FaGoogle } from "react-icons/fa";
-import { SiUdemy } from "react-icons/si";
+import { FaFigma, FaFreeCodeCamp, FaGoogle, FaReact } from "react-icons/fa";
+import { SiReactrouter, SiRedux, SiTailwindcss, SiUdemy } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const profileName = "Salah Mohsen";
 export const profileTitle = "Designer & Developer";
@@ -178,24 +179,43 @@ export const Data_Projects = [
     id: "1",
     name: "Portfolio",
     createdAt: "Jan 2024",
-    image: "",
-    description: "",
-    technologies: [{ name: "", icon: "" }],
+    imagePATH: "/images/loremepsom.png",
+    description:
+      "Aute quis qui sunt eiusmod aliquip culpa dolor velit voluptate ad officia reprehenderit anim.",
+    technologies: [
+      { name: "Next.js", icon: <TbBrandNextjs /> },
+      { name: "tailwind", icon: <SiTailwindcss /> },
+    ],
+    projectLink: "salahmohsen.com",
   },
   {
     id: "2",
-    name: "",
-    createdAt: "",
-    image: "",
-    description: "",
-    technologies: [{ name: "", icon: "" }],
+    name: "Couply",
+    createdAt: "Jan 2024",
+    imagePATH: "/images/loremepsom.png",
+    description:
+      "Ea adipisicing sint ex nulla exercitation incididunt deserunt ea dolore cillum non esse irure dolor.",
+    technologies: [
+      { name: "figma", icon: <FaFigma /> },
+      { name: "Next.js", icon: <TbBrandNextjs /> },
+      { name: "tailwind", icon: <SiTailwindcss /> },
+    ],
+    projectLink: "https://couply.salahmohsen.com/",
   },
   {
     id: "3",
-    name: "",
-    createdAt: "",
-    image: "",
-    description: "",
-    technologies: [{ name: "", icon: "" }],
+    name: "Slice",
+    createdAt: "Sep 2023",
+    imagePATH: "/images/loremepsom.png",
+    description:
+      "Anim esse pariatur ea proident. Ea adipisicing sint ex nulla exercitation incididunt deserunt ea dolore cillum non esse irure dolor.",
+    technologies: [
+      { name: "figma", icon: <FaFigma /> },
+      { name: "react", icon: <FaReact /> },
+      { name: "react router", icon: <SiReactrouter /> },
+      { name: "redux", icon: <SiRedux /> },
+      { name: "tailwind", icon: <SiTailwindcss /> },
+    ],
+    projectLink: "https://slice.salahmohsen.com/",
   },
 ];
