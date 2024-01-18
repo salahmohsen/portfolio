@@ -6,6 +6,8 @@ import {
   RiTwitterLine,
 } from "react-icons/ri";
 
+import { CiMail } from "react-icons/ci";
+
 const SocialMediaButton = ({ socialmedia, username = undefined }) => {
   const socailmediaList = {
     facebook: {
@@ -27,6 +29,10 @@ const SocialMediaButton = ({ socialmedia, username = undefined }) => {
     github: {
       icon: <RiGithubLine />,
       url: `https://www.github.com/${username}`,
+    },
+    mail: {
+      icon: <CiMail />,
+      url: `mailto:${username}`,
     },
   };
   const { icon, url } = socailmediaList[socialmedia];

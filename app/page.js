@@ -6,6 +6,8 @@ import ExperienceItem from "./components/sections/experience/experienceItem";
 import Section from "./components/sections/section";
 import Profile from "./components/sections/profile/profile";
 import Nav from "./components/sections/nav/nav";
+import Experience from "./components/sections/experience/experience";
+import Certificates from "./components/sections/certificates/certificates";
 
 export default function Home() {
   return (
@@ -21,7 +23,10 @@ export default function Home() {
         <ul className="mt-8 flex items-center gap-3" aria-label="Social media">
           <SocialMediaButton socialmedia="github" username="salahmohsen" />
           <SocialMediaButton socialmedia="linkedin" username="salahmohsen" />
-          <SocialMediaButton socialmedia="facebook" username="iSalahMohsen" />
+          <SocialMediaButton
+            socialmedia="mail"
+            username="contact@salahmohsen.com"
+          />
           <LightswitchButton />
         </ul>
       </header>
@@ -33,53 +38,7 @@ export default function Home() {
           <Data_About />
         </Section>
         <Section name="Certificates">
-          <p>
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-            Certificates Certificates Certificates Certificates Certificates
-          </p>
+          <Certificates />
         </Section>
         <Section name="Projects">
           <p>
@@ -118,21 +77,7 @@ export default function Home() {
           </p>
         </Section>
         <Section name="Previous Experience">
-          <div>
-            <ol className="group/list">
-              {Data_experience.map((el) => (
-                <ExperienceItem
-                  key={el.id}
-                  company={el.company}
-                  title={el.title}
-                  duration={el.duration}
-                  description={el.description}
-                  skills={el.skills}
-                  link={el.link}
-                />
-              ))}
-            </ol>
-          </div>
+          <Experience />
         </Section>
       </main>
     </div>
