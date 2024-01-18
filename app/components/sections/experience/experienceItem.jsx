@@ -13,7 +13,7 @@ const ExperienceItem = ({
     <li className="mb-12">
       <ExternalLink url={link} className={"!text-night"} colored={false}>
         <article className=" group relative grid scale-100 pb-1 transition-all duration-200 ease-in-out sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!scale-105 lg:hover:!opacity-100 lg:group-hover:scale-75 lg:group-hover/list:opacity-50">
-          <div className="absolute -inset-4 -z-0 hidden rounded-lg lg:-inset-x-6 lg:block lg:group-hover:border lg:group-hover:bg-night/0 lg:group-hover:drop-shadow-lg dark:lg:group-hover:border-light/5 dark:lg:group-hover:bg-light/5"></div>
+          <div className="absolute -inset-4 -z-10 hidden rounded-lg lg:-inset-x-6 lg:block lg:group-hover:border lg:group-hover:bg-night/0 lg:group-hover:drop-shadow-lg dark:lg:group-hover:border-light/5 dark:lg:group-hover:bg-light/5"></div>
           <header className="z-10 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 ">
             {duration}
           </header>

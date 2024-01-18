@@ -12,6 +12,7 @@ const Certificates = () => {
           certificateLink={el.certificateLink}
           issueDate={el.issueDate}
           skills={el.skills}
+          organizationIcon={el.organizationIcon}
         />
       ))}
     </ol>

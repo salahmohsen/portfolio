@@ -1,4 +1,6 @@
 import ExternalLink from "../components/common/externalLink";
+import { FaFreeCodeCamp, FaGoogle } from "react-icons/fa";
+import { SiUdemy } from "react-icons/si";
 
 export const profileName = "Salah Mohsen";
 export const profileTitle = "Designer & Developer";
@@ -10,13 +12,13 @@ export const Data_Sections = [
   "certificates",
   "projects",
   "previous experience",
-  ["resume", "/resume.pdf"],
+  ["Résumé", "/resume.pdf"],
 ];
 
 export const Data_About = () => {
   return (
     <>
-      <p className="mb-5">
+      <p className="mb-5 text-pretty">
         Back in 2012, I decided to try my hand at creating custom Tumblr themes
         and tumbled head first into the rabbit hole of coding and web
         development. Fast-forward to today, and I’ve had the privilege of
@@ -26,14 +28,14 @@ export const Data_About = () => {
         {<ExternalLink url="#">student-led design studio</ExternalLink>}, and a{" "}
         {<ExternalLink url="#">huge corporation.</ExternalLink>}
       </p>
-      <p className="mb-5">
+      <p className="mb-5 text-pretty">
         My main focus these days is building products and leading projects for
         our clients at {<ExternalLink url="#">Upstatement</ExternalLink>}. In my
         free time I’ve also released an{" "}
         {<ExternalLink url="#">online video course</ExternalLink>} that covers
         everything you need to know to build a web app with the Spotify API.
       </p>
-      <p className="mb-5">
+      <p className="mb-5 text-pretty">
         When I’m not at the computer, I’m usually rock climbing, hanging out
         with my wife and two cats, or running around Hyrule searching for{" "}
         {<ExternalLink url="#">Korok seeds</ExternalLink>}
@@ -47,6 +49,7 @@ export const Data_certificates = [
     id: 1,
     name: "The UX Design Process: Empathize, Define, and Ideate",
     issuingOrganization: "Google",
+    organizationIcon: <FaGoogle />,
     certificateLink:
       "https://coursera.org/share/e5cce9bb9de611ae4ec621d81e6128d2",
     issueDate: "Jan 2024",
@@ -62,6 +65,8 @@ export const Data_certificates = [
     id: 2,
     name: "The Ultimate React Course: React, Redux & More",
     issuingOrganization: "Udemy",
+    organizationIcon: <SiUdemy />,
+
     certificateLink:
       "https://www.udemy.com/certificate/UC-3af97ccb-793c-4fdf-b00c-277362a3de8d/",
     issueDate: "Nov 2023",
@@ -80,6 +85,7 @@ export const Data_certificates = [
     id: 3,
     name: "Python Data Structures",
     issuingOrganization: "University of Michigan",
+    organizationIcon: "/images/michigan.png",
     certificateLink:
       "https://coursera.org/share/77d433943bcbc3acab90b46c75f5e7d9",
     issueDate: "Apr 2023",
@@ -92,8 +98,9 @@ export const Data_certificates = [
   },
   {
     id: 4,
-    name: " The Complete JavaScript Course: From Zero to Expert!",
+    name: "The Complete JavaScript Course: From Zero to Expert!",
     issuingOrganization: "Udemy",
+    organizationIcon: <SiUdemy />,
     certificateLink:
       "https://www.udemy.com/certificate/UC-bed0ce2c-7516-430a-a893-40ca7b96a6d5/",
     issueDate: "Jan 2023",
@@ -109,6 +116,7 @@ export const Data_certificates = [
     id: 5,
     name: "Responsive Web Design",
     issuingOrganization: "freeCodeCamp",
+    organizationIcon: <FaFreeCodeCamp />,
     certificateLink:
       "https://freecodecamp.org/certification/salahmohsen/responsive-web-design",
     issueDate: "Aug 2021",
@@ -118,6 +126,7 @@ export const Data_certificates = [
     id: 6,
     name: "JavaScript Algorithms and Data Structures",
     issuingOrganization: "freeCodeCamp",
+    organizationIcon: <FaFreeCodeCamp />,
     certificateLink:
       "https://www.freecodecamp.org/certification/salahmohsen/javascript-algorithms-and-data-structures",
     issueDate: "Sept 2020",
@@ -161,5 +170,32 @@ export const Data_experience = [
       I've also published a story titled "Me and the Moulid or a self-portrait through others" on MadaMasr in 2019 and participated in the Shawkan photography and reached the shortlist of competition in the photojournalism category in 2016 with a photo titled "The land protests".`,
     skills: "",
     link: "https://www.behance.net/gallery/77775569/El-Moulid-A-Self-Portrait-Through-Others",
+  },
+];
+
+export const Data_Projects = [
+  {
+    id: "1",
+    name: "Portfolio",
+    createdAt: "Jan 2024",
+    image: "",
+    description: "",
+    technologies: [{ name: "", icon: "" }],
+  },
+  {
+    id: "2",
+    name: "",
+    createdAt: "",
+    image: "",
+    description: "",
+    technologies: [{ name: "", icon: "" }],
+  },
+  {
+    id: "3",
+    name: "",
+    createdAt: "",
+    image: "",
+    description: "",
+    technologies: [{ name: "", icon: "" }],
   },
 ];
