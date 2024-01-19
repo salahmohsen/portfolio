@@ -8,7 +8,11 @@ import {
 
 import { CiMail } from "react-icons/ci";
 
-const SocialMediaButton = ({ socialmedia, username = undefined }) => {
+const SocialMediaButton = ({
+  socialmedia,
+  username = undefined,
+  availability,
+}) => {
   const socailmediaList = {
     facebook: {
       icon: <RiFacebookLine />,
@@ -43,9 +47,12 @@ const SocialMediaButton = ({ socialmedia, username = undefined }) => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex aspect-square h-9 w-9 items-center justify-center rounded-md bg-transparent text-night/70 outline outline-1 outline-night/5 transition-all duration-200 ease-in-out hover:bg-night/5 dark:text-light/70 dark:outline-light/5 dark:hover:bg-light/5"
+        className="relative flex aspect-square h-9 w-9 items-center justify-center rounded-md bg-transparent text-night/70 outline outline-1 outline-night/5 transition-all duration-200 ease-in-out hover:bg-night/5 dark:text-light/70 dark:outline-light/5 dark:hover:bg-light/5"
       >
         {icon}
+        {availability ? (
+          <span className=" absolute -z-10 h-2 w-2 animate-ping rounded-full bg-orange"></span>
+        ) : null}
       </a>
     </li>
   );

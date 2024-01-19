@@ -25,13 +25,14 @@ export default function Home() {
           <SocialMediaButton socialmedia="linkedin" username="salahmohsen" />
           <SocialMediaButton
             socialmedia="mail"
+            availability={true}
             username="contact@salahmohsen.com"
           />
           <LightswitchButton />
         </ul>
       </header>
       <main
-        className="pt-24 text-lightFaded dark:text-nightFaded lg:mb-36 lg:w-1/2 lg:py-24"
+        className="pt-24 text-lightFaded dark:text-nightFaded lg:w-1/2 "
         id="container"
       >
         <Section name="About">
