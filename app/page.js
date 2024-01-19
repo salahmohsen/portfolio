@@ -43,6 +43,7 @@ export default function Home() {
         <Section name="Projects">
           <Projects />
         </Section>
+
         <Section name="Previous Experience">
           <Experience />
         </Section>

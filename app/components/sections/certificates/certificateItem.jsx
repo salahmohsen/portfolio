@@ -26,26 +26,24 @@ const CertificateItem = ({
   return (
     <li className="mb-12">
       <a href={certificateLink} target="_blank">
-        <article className="group relative flex items-center gap-7 pb-1 transition-all duration-200 ease-in-out  lg:hover:!opacity-100  lg:group-hover/list:opacity-50">
-          <aside
-            className={`flex aspect-square h-16 w-16 items-center justify-center rounded-full bg-night/50 text-3xl text-light transition-all duration-200 ease-linear dark:bg-light/5 lg:group-hover:scale-125 lg:group-hover:bg-night dark:lg:group-hover:bg-light dark:lg:group-hover:text-night`}
-          >
-            {svgComponent || regularImage}
+        <article className="group relative grid grid-cols-8 items-center gap-8 pb-1 transition-all duration-200 ease-in-out md:gap-4 lg:hover:!opacity-100  lg:group-hover/list:opacity-50">
+          <aside className=" col-span-2 hidden h-full w-full items-center justify-center sm:flex lg:justify-start ">
+            <div
+              className={` flex aspect-square h-16 w-16 items-center justify-center rounded-full bg-night/50 text-3xl text-light transition-all duration-200 ease-linear dark:bg-light/5 sm:h-20 sm:w-20 lg:group-hover:scale-125 lg:group-hover:bg-night dark:lg:group-hover:bg-light dark:lg:group-hover:text-night`}
+            >
+              {svgComponent || regularImage}
+            </div>
           </aside>
-          <div>
+          <div className=" col-span-8 sm:col-span-6">
             <header className="flex flex-col gap-1 font-bold">
               <p className="text-xs font-semibold uppercase tracking-wide">
                 {issueDate}
               </p>
-              <p className="text-xs font-semibold tracking-widest">
+              <p className="inline-flex items-center gap-1 text-xs font-semibold tracking-widest">
                 {issuingOrganization}
+                <RxExternalLink />
               </p>
-              <p className="mb-2 mt-1 flex items-center gap-1 tracking-normal">
-                <span>{name}</span>
-                <span>
-                  <RxExternalLink />
-                </span>
-              </p>
+              <p className="mb-2 mt-1 tracking-normal">{name}</p>
             </header>
             <div>
               <div className="flex flex-wrap gap-1">

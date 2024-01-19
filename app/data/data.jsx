@@ -1,7 +1,7 @@
 import ExternalLink from "../components/common/externalLink";
 import { FaFigma, FaFreeCodeCamp, FaGoogle, FaReact } from "react-icons/fa";
 import { SiReactrouter, SiRedux, SiTailwindcss, SiUdemy } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbApi, TbBrandNextjs } from "react-icons/tb";
 
 export const profileName = "Salah Mohsen";
 export const profileTitle = "Designer & Developer";
@@ -13,7 +13,7 @@ export const Data_Sections = [
   "certificates",
   "projects",
   "previous experience",
-  ["Résumé", "/resume.pdf"],
+  ["Full Résumé", "/resume.pdf"],
 ];
 
 export const Data_About = () => {
@@ -184,6 +184,7 @@ export const Data_Projects = [
       "Aute quis qui sunt eiusmod aliquip culpa dolor velit voluptate ad officia reprehenderit anim.",
     technologies: [
       { name: "Next.js", icon: <TbBrandNextjs /> },
+      { name: "Intersection Observer API", icon: <TbApi /> },
       { name: "tailwind", icon: <SiTailwindcss /> },
     ],
     projectLink: "salahmohsen.com",
