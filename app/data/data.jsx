@@ -21,14 +21,37 @@ export const Data_About = () => {
     <>
       <p className="mb-5 text-pretty">
         Back in 2013, I started a career in photography, documenting hundreds of{" "}
-        {<ExternalLink url="#"> events</ExternalLink>}, publishing a{" "}
-        {<ExternalLink url="#">story in maddamasr</ExternalLink>}, and getting
-        shortlisted at a prestigious{" "}
-        {<ExternalLink url="#">photography contest</ExternalLink>}. I worked for
-        a major {<ExternalLink url="#">media company</ExternalLink>} in Germany
-        and a pioneering fashion{" "}
-        {<ExternalLink url="#"> e-commerce platform</ExternalLink>} based in
-        Egypt.
+        {
+          <ExternalLink url="https://www.behance.net/gallery/69658683/2018s-Featured-wedding-photos">
+            events
+          </ExternalLink>
+        }
+        , publishing a{" "}
+        {
+          <ExternalLink url="https://www.madamasr.com/en/2019/03/21/panorama/u/me-and-the-moulid/">
+            story in madamasr
+          </ExternalLink>
+        }
+        , and getting shortlisted at a prestigious{" "}
+        {
+          <ExternalLink url="https://www.madamasr.com/en/2016/12/31/panorama/u/mada-publishes-the-shortlist-of-the-shawkan-photography-competition/">
+            photography contest
+          </ExternalLink>
+        }
+        . I worked for a major{" "}
+        {
+          <ExternalLink url="https://www.meyle-mueller.de/">
+            media company
+          </ExternalLink>
+        }{" "}
+        in Germany and a pioneering fashion{" "}
+        {
+          <ExternalLink url="https://tfk.me/">
+            {" "}
+            e-commerce platform
+          </ExternalLink>
+        }{" "}
+        based in Egypt.
       </p>
       <p className="mb-5 text-pretty">
         But the desire to weave magic with pixels, not just light, combined with
@@ -210,6 +233,7 @@ export const Data_Projects = [
       { name: "react", icon: <FaReact /> },
       { name: "react router", icon: <SiReactrouter /> },
       { name: "redux", icon: <SiRedux /> },
+      { name: "Reverse Geocoding to City API", icon: <TbApi /> },
       { name: "tailwind", icon: <SiTailwindcss /> },
     ],
     projectLink: "https://slice.salahmohsen.com/",
