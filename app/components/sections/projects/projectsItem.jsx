@@ -12,7 +12,7 @@ const ProjectsItem = ({
   return (
     <li className="mb-12">
       <a href={projectLink} target="_blank">
-        <article className="group relative   grid grid-cols-8 items-start gap-4 pb-1 transition-all duration-200 ease-in-out lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+        <article className="group relative grid grid-cols-8 items-start gap-4 pb-1 transition-all duration-200 ease-in-out lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
           <aside
             className={`relative order-2 col-span-8 mb-2 flex aspect-video h-24 items-center justify-center transition-all duration-200 ease-linear  md:order-1 md:col-span-2 lg:h-16 lg:group-hover:scale-110 `}
           >
@@ -21,7 +21,7 @@ const ProjectsItem = ({
               fill
               loading="lazy"
               alt="snapshot from a project"
-              className="rounded-sm bg-center object-cover outline outline-1 outline-offset-2 outline-night/30 dark:outline-light/30 "
+              className="rounded-sm bg-center object-contain saturate-0 group-hover:saturate-100 "
             />
           </aside>
 

@@ -179,9 +179,8 @@ export const Data_Projects = [
     id: "1",
     name: "Portfolio",
     createdAt: "Jan 2024",
-    imagePATH: "/images/loremepsom.png",
-    description:
-      "Aute quis qui sunt eiusmod aliquip culpa dolor velit voluptate ad officia reprehenderit anim.",
+    imagePATH: "/images/portfolio.svg",
+    description: "My portfolio website.",
     technologies: [
       { name: "Next.js", icon: <TbBrandNextjs /> },
       { name: "Intersection Observer API", icon: <TbApi /> },
@@ -193,9 +192,9 @@ export const Data_Projects = [
     id: "2",
     name: "Couply",
     createdAt: "Jan 2024",
-    imagePATH: "/images/loremepsom.png",
+    imagePATH: "/images/couply.svg",
     description:
-      "Ea adipisicing sint ex nulla exercitation incididunt deserunt ea dolore cillum non esse irure dolor.",
+      "Couply is a landing page for an browser extension that automatically find coupon codes at online retailers.",
     technologies: [
       { name: "figma", icon: <FaFigma /> },
       { name: "Next.js", icon: <TbBrandNextjs /> },
@@ -205,11 +204,11 @@ export const Data_Projects = [
   },
   {
     id: "3",
-    name: "Slice",
+    name: "SLICE",
     createdAt: "Sep 2023",
-    imagePATH: "/images/loremepsom.png",
+    imagePATH: "/images/slice.svg",
     description:
-      "Anim esse pariatur ea proident. Ea adipisicing sint ex nulla exercitation incididunt deserunt ea dolore cillum non esse irure dolor.",
+      "SLICE is a web application for a pizza restaurant that allows customers to order pizza online and track the progress of their orders.",
     technologies: [
       { name: "figma", icon: <FaFigma /> },
       { name: "react", icon: <FaReact /> },

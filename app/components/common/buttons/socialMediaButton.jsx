@@ -51,7 +51,7 @@ const SocialMediaButton = ({
       >
         {icon}
         {availability ? (
-          <span className=" absolute -z-10 h-2 w-2 animate-ping rounded-full bg-orange"></span>
+          <span className=" absolute right-0 top-0 -z-10 h-2 w-2 animate-ping rounded-full bg-orange"></span>
         ) : null}
       </a>
     </li>
