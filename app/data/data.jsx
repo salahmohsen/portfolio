@@ -10,8 +10,8 @@ export const profileDescription =
 
 export const Data_Sections = [
   "about",
-  "certificates",
   "projects",
+  "certificates",
   "previous experience",
   ["Full Résumé", "/resume.pdf"],
 ];

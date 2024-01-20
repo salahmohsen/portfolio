@@ -38,11 +38,11 @@ export default function Home() {
         <Section name="About">
           <Data_About />
         </Section>
-        <Section name="Certificates">
-          <Certificates />
-        </Section>
         <Section name="Projects">
           <Projects />
+        </Section>
+        <Section name="Certificates">
+          <Certificates />
         </Section>
 
         <Section name="Previous Experience">
