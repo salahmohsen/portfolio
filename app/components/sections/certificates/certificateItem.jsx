@@ -40,8 +40,13 @@ const CertificateItem = ({
                 {issueDate}
               </p>
               <p className="inline-flex items-center gap-1 text-xs font-semibold tracking-widest">
-                {issuingOrganization}
-                <RxExternalLink />
+                <span className="mr-0 flex h-5 w-5 items-center text-lg sm:hidden">
+                  {svgComponent || regularImage}
+                </span>
+                <span>{issuingOrganization}</span>
+                <span>
+                  <RxExternalLink />
+                </span>
               </p>
               <p className="mb-2 mt-1 tracking-normal">{name}</p>
             </header>

@@ -20,26 +20,22 @@ export const Data_About = () => {
   return (
     <>
       <p className="mb-5 text-pretty">
-        Back in 2012, I decided to try my hand at creating custom Tumblr themes
-        and tumbled head first into the rabbit hole of coding and web
-        development. Fast-forward to today, and I’ve had the privilege of
-        building software for an{" "}
-        {<ExternalLink url="#">advertising agency</ExternalLink>}, a{" "}
-        {<ExternalLink url="#">start-up</ExternalLink>}, a{" "}
-        {<ExternalLink url="#">student-led design studio</ExternalLink>}, and a{" "}
-        {<ExternalLink url="#">huge corporation.</ExternalLink>}
+        Back in 2013, I started a career in photography, documenting hundreds of{" "}
+        {<ExternalLink url="#"> events</ExternalLink>}, publishing a{" "}
+        {<ExternalLink url="#">story in maddamasr</ExternalLink>}, and getting
+        shortlisted at a prestigious{" "}
+        {<ExternalLink url="#">photography contest</ExternalLink>}. I worked for
+        a major {<ExternalLink url="#">media company</ExternalLink>} in Germany
+        and a pioneering fashion{" "}
+        {<ExternalLink url="#"> e-commerce platform</ExternalLink>} based in
+        Egypt.
       </p>
       <p className="mb-5 text-pretty">
-        My main focus these days is building products and leading projects for
-        our clients at {<ExternalLink url="#">Upstatement</ExternalLink>}. In my
-        free time I’ve also released an{" "}
-        {<ExternalLink url="#">online video course</ExternalLink>} that covers
-        everything you need to know to build a web app with the Spotify API.
-      </p>
-      <p className="mb-5 text-pretty">
-        When I’m not at the computer, I’m usually rock climbing, hanging out
-        with my wife and two cats, or running around Hyrule searching for{" "}
-        {<ExternalLink url="#">Korok seeds</ExternalLink>}
+        But the desire to weave magic with pixels, not just light, combined with
+        the itch to code couldn’t be ignored. So, in 2023, I began my journey in
+        web development, trading shutter clicks for keyboard clacks. Now, I pour
+        my artistic soul into crafting pixel-perfect, accessible products for
+        the web and beyond.
       </p>
     </>
   );
@@ -147,7 +143,7 @@ export const Data_experience = [
     title: "Phtoto Editor",
     duration: "2020 -> 2023",
     description:
-      "I'm responsible for applying TFK guidelines that vary across content types in order to preserve consistency and a visually appealing experience on the website, I.e. standardize background color, Enhance features and figure, remove wrinkles, retouch skin, correct colors, etc... in addition to accelerating the workflow with automation features in photoshop and easing, organizing it with Trello.",
+      "I was responsible for applying TFK guidelines that vary across content types in order to preserve consistency and a visually appealing experience on the website, I.e. standardize background color, Enhance features and figure, remove wrinkles, retouch skin, correct colors, etc... in addition to accelerating the workflow with automation features in photoshop and easing, organizing it with Trello.",
     skills: "",
     link: "https://tfk.me/",
   },
@@ -166,9 +162,9 @@ export const Data_experience = [
     company: "Freelance",
     title: "Photographer & Retoucher",
     duration: "2014 -> 2019",
-    description: `In the past few years, I shot more than 150 events mainly weddings and pre-wedding photo sessions. The challenges I've faced during this experience sharpened my photography skills and accumulated a deep understanding of the medium; my eyes became a more detail-oriented and efficient producer of excellent compositions, I've acquired professional skills dealing with a variety of lighting conditions and sophisticated skills in post-processing field, in addition to solid soft skills that helped me directing my photography and get through a lot of stressful situations. 
-
-      I've also published a story titled "Me and the Moulid or a self-portrait through others" on MadaMasr in 2019 and participated in the Shawkan photography and reached the shortlist of competition in the photojournalism category in 2016 with a photo titled "The land protests".`,
+    description: `I shot more than 150 events mainly weddings and pre-wedding photo sessions. The challenges I've faced during this experience sharpened my photography skills and accumulated a deep understanding of the medium; my eyes became a more detail-oriented and efficient producer of excellent compositions, I've acquired professional skills dealing with a variety of lighting conditions and sophisticated skills in post-processing field, in addition to solid soft skills that helped me directing my photography and get through a lot of stressful situations. 
+    In 2016 i participated in Shawkan photography contest and reached the shortlist of competition in the photojournalism category with a photo titled "The land protests". I've also published a story titled "Me and the Moulid or a self-portrait through others" on MadaMasr in 2019.
+    `,
     skills: "",
     link: "https://www.behance.net/gallery/77775569/El-Moulid-A-Self-Portrait-Through-Others",
   },
