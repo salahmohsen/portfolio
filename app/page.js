@@ -25,7 +25,6 @@ export default function Home() {
           <SocialMediaButton socialmedia="linkedin" username="salahmohsen" />
           <SocialMediaButton
             socialmedia="mail"
-            availability={true}
             username="contact@salahmohsen.com"
           />
           <LightswitchButton />

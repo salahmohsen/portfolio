@@ -40,7 +40,9 @@ const CertificateItem = ({
                 {issueDate}
               </p>
               <p className="inline-flex items-center gap-1 text-xs font-semibold tracking-widest">
-                <span className="mr-0 flex h-5 w-5 items-center text-lg sm:hidden">
+                <span
+                  className={`mr-0 flex h-5 w-5 items-center text-lg text-night dark:text-light sm:hidden ${regularImage ? "invert dark:invert-0" : null}`}
+                >
                   {svgComponent || regularImage}
                 </span>
                 <span>{issuingOrganization}</span>
