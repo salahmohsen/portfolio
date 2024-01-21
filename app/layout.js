@@ -10,38 +10,34 @@ const inter = localFont({
 
 export const metadata = {
   title: "Salah Mohsen",
-  description: "Designer & Developer",
+  description:
+    "Salah Mohsen is a front-end developer who builds accessible pixel-perfect, accessible products for the web.",
+  manifest: "/images/favicon/site.webmanifest",
+  icons: {
+    apple: [{ url: "/images/favicon/apple-touch-icon.png" }],
+    shortcut: "/images/favicon/favicon.ico",
+    icon: [
+      {
+        url: "/images/favicon/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: "/images/favicon/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
-  const title = children;
   return (
     <html
       lang="en"
       className={`${inter.className} scroll-smooth`}
       suppressHydrationWarning
     >
-      <head>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/images/favicon/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/images/favicon/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/images/favicon/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/images/favicon/site.webmanifest" />
-        <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
-      </head>
       <body
         className={
           "text-pretty bg-light leading-relaxed text-night antialiased transition-colors duration-500 ease-in-out selection:bg-night selection:text-light dark:bg-night dark:text-light dark:selection:bg-light dark:selection:text-night"
