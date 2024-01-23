@@ -8,7 +8,7 @@ import {
 
 import { CiMail } from "react-icons/ci";
 
-const SocialMediaButton = ({ socialmedia, username = undefined }) => {
+const ContactButton = ({ contact, username = undefined }) => {
   const socailmediaList = {
     facebook: {
       icon: <RiFacebookLine />,
@@ -35,7 +35,7 @@ const SocialMediaButton = ({ socialmedia, username = undefined }) => {
       url: `mailto:${username}`,
     },
   };
-  const { icon, url } = socailmediaList[socialmedia];
+  const { icon, url } = socailmediaList[contact];
 
   return (
     <li>
@@ -44,7 +44,7 @@ const SocialMediaButton = ({ socialmedia, username = undefined }) => {
         target="_blank"
         rel="noopener noreferrer"
         className="relative flex aspect-square h-9 w-9 items-center justify-center rounded-md bg-transparent text-night/70 outline outline-1 outline-night/5 transition-all duration-200 ease-in-out hover:bg-night/5 dark:text-light/70 dark:outline-light/5 dark:hover:bg-light/5"
-        aria-label={socialmedia}
+        aria-label={contact}
       >
         {icon}
       </a>
@@ -52,4 +52,4 @@ const SocialMediaButton = ({ socialmedia, username = undefined }) => {
   );
 };
 
-export default SocialMediaButton;
+export default ContactButton;

@@ -5,7 +5,8 @@ import { createContext, useContext, useState } from "react";
 const IntersectionContext = createContext();
 
 const IntersectionProvider = ({ children }) => {
-  const [sectionIntersectedName, setSectionIntersectedName] = useState("");
+  const [sectionIntersectedName, setSectionIntersectedName] =
+    useState("#about");
   const [isIntersecting, setIsIntersecting] = useState(false);
 
   return (

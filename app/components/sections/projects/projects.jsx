@@ -1,10 +1,10 @@
-import { Data_Projects } from "@/app/data/data";
+import projects_data from "@/app/data/projects_data";
 import ProjectsItem from "./projectsItem";
 
 const Projects = () => {
   return (
     <ol className="group/list">
-      {Data_Projects.map((el) => (
+      {projects_data.map((el) => (
         <ProjectsItem
           key={el.id}
           name={el.name}

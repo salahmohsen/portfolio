@@ -1,11 +1,11 @@
+import navbar_data from "@/app/data/navbar_data";
 import NavItem from "./navItem";
-import { Data_Sections } from "@/app/data/data";
 
 const Nav = () => {
   return (
     <nav className="hidden lg:block" aria-label="In-page jump links">
       <ul className="mt-16 w-max">
-        {Data_Sections.map((el) => (
+        {navbar_data.map((el) => (
           <NavItem name={el} key={el} />
         ))}
       </ul>

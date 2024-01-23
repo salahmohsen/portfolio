@@ -1,10 +1,10 @@
-import { Data_certificates } from "@/app/data/data";
+import certificates_data from "@/app/data/certificates_data";
 import CertificateItem from "./certificateItem";
 
 const Certificates = () => {
   return (
     <ol className="group/list">
-      {Data_certificates.map((el) => (
+      {certificates_data.map((el) => (
         <CertificateItem
           key={el.id}
           name={el.name}

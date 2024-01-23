@@ -1,4 +1,8 @@
-import { profileDescription, profileName, profileTitle } from "@/app/data/data";
+import {
+  profileDescription,
+  profileName,
+  profileTitle,
+} from "@/app/data/meta_data";
 
 const Profile = () => {
   return (

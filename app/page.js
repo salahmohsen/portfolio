@@ -1,13 +1,13 @@
 import Nav from "./components/sections/nav/nav";
-import { Data_About } from "./data/data";
 import Section from "./components/sections/section";
 import Profile from "./components/sections/profile/profile";
 import Experience from "./components/sections/experience/experience";
 import Certificates from "./components/sections/certificates/certificates";
 import Projects from "./components/sections/projects/projects";
 import { ThemeSwitcher } from "./components/common/buttons/mobileThemeSwitcher";
-import SocialMediaButton from "./components/common/buttons/socialMediaButton";
 import LightswitchButton from "./components/common/buttons/lightSwitchButton";
+import About_data from "./data/about_data";
+import Contact from "./components/sections/contact/contact";
 
 export default function Home() {
   return (
@@ -21,12 +21,7 @@ export default function Home() {
           <Nav />
         </div>
         <ul className="mt-8 flex items-center gap-3" aria-label="Social media">
-          <SocialMediaButton socialmedia="github" username="salahmohsen" />
-          <SocialMediaButton socialmedia="linkedin" username="salahmohsen" />
-          <SocialMediaButton
-            socialmedia="mail"
-            username="contact@salahmohsen.com"
-          />
+          <Contact />
           <LightswitchButton />
         </ul>
       </header>
@@ -35,7 +30,7 @@ export default function Home() {
         id="container"
       >
         <Section name="About">
-          <Data_About />
+          <About_data />
         </Section>
         <Section name="Projects">
           <Projects />
