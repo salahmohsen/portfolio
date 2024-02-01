@@ -11,7 +11,7 @@ const inter = localFont({
 export const metadata = {
   title: "Salah Mohsen",
   description:
-    "Salah Mohsen is a front-end developer who builds accessible pixel-perfect, accessible products for the web.",
+    "Salah Mohsen | front-end developer who builds pixel-perfect, accessible products for the web.",
   manifest: "/images/favicon/site.webmanifest",
   icons: {
     apple: [{ url: "/images/favicon/apple-touch-icon.png" }],
