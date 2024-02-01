@@ -28,6 +28,22 @@ export const metadata = {
         type: "image/png",
       },
     ],
+    openGraph: {
+      images: [
+        {
+          url: "/images/ogImage.jpg",
+          sizes: "499x262",
+        },
+      ],
+    },
+    twitter: {
+      images: [
+        {
+          url: "/images/ogImage.jpg",
+          sizes: "499x262",
+        },
+      ],
+    },
   },
 };
 
