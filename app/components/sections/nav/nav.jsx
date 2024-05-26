@@ -1,4 +1,4 @@
-import navbar_data from "@/app/data/navbar_data";
+import navbar_data from "@/data/navbar_data";
 import NavItem from "./navItem";
 
 const Nav = () => {

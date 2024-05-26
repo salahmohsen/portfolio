@@ -1,4 +1,4 @@
-import projects_data from "@/app/data/projects_data";
+import projects_data from "@/data/projects_data";
 import ProjectsItem from "./projectsItem";
 
 const Projects = () => {

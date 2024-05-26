@@ -4,6 +4,22 @@ import { SiUdemy } from "react-icons/si";
 const certificates_data = [
   {
     id: 1,
+    name: "Next.js 14 & React - The Complete Guide",
+    issuingOrganization: "Udemy",
+    organizationIcon: <SiUdemy />,
+    certificateLink:
+      "https://www.udemy.com/certificate/UC-e880c570-d2c7-42a8-ac09-41e7eb79cd9e/",
+    issueDate: "May 2024",
+    skills: [
+      "Next.js",
+      "App Router",
+      "Server Actions",
+      "Authentication ",
+      "File upload",
+    ],
+  },
+  {
+    id: 2,
     name: "The UX Design Process: Empathize, Define, and Ideate",
     issuingOrganization: "Google",
     organizationIcon: <FaGoogle />,
@@ -19,7 +35,7 @@ const certificates_data = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "The Ultimate React Course: React, Redux & More",
     issuingOrganization: "Udemy",
     organizationIcon: <SiUdemy />,
@@ -39,7 +55,7 @@ const certificates_data = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Python Data Structures",
     issuingOrganization: "University of Michigan",
     organizationIcon: "/images/michigan.png",
@@ -54,7 +70,7 @@ const certificates_data = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "The Complete JavaScript Course: From Zero to Expert!",
     issuingOrganization: "Udemy",
     organizationIcon: <SiUdemy />,
@@ -70,7 +86,7 @@ const certificates_data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "Responsive Web Design",
     issuingOrganization: "freeCodeCamp",
     organizationIcon: <FaFreeCodeCamp />,
@@ -80,7 +96,7 @@ const certificates_data = [
     skills: ["HTML", "CSS"],
   },
   {
-    id: 6,
+    id: 7,
     name: "JavaScript Algorithms and Data Structures",
     issuingOrganization: "freeCodeCamp",
     organizationIcon: <FaFreeCodeCamp />,

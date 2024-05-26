@@ -1,4 +1,4 @@
-import ExternalLink from "../components/common/externalLink";
+import ExternalLink from "../app/components/common/externalLink";
 
 const About_data = () => {
   return (

@@ -1,4 +1,4 @@
-import contact_data from "@/app/data/contact_data";
+import contact_data from "@/data/contact_data";
 import ContactButton from "./contactButton";
 
 const Contact = () => {

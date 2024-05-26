@@ -1,4 +1,4 @@
-import certificates_data from "@/app/data/certificates_data";
+import certificates_data from "@/data/certificates_data";
 import CertificateItem from "./certificateItem";
 
 const Certificates = () => {

@@ -1,6 +1,6 @@
 import ExperienceItem from "./experienceItem";
 import ExternalLink from "../../common/externalLink";
-import experience_data from "@/app/data/experience_data";
+import experience_data from "@/data/experience_data";
 
 const Experience = () => {
   return (

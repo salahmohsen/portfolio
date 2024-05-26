@@ -6,7 +6,7 @@ import Certificates from "./components/sections/certificates/certificates";
 import Projects from "./components/sections/projects/projects";
 import { ThemeSwitcher } from "./components/common/buttons/mobileThemeSwitcher";
 import LightswitchButton from "./components/common/buttons/lightSwitchButton";
-import About_data from "./data/about_data";
+import About_data from "../data/about_data";
 import Contact from "./components/sections/contact/contact";
 
 export default function Home() {

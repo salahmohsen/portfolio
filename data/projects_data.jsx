@@ -1,10 +1,35 @@
 import { FaFigma, FaReact } from "react-icons/fa";
-import { SiReactrouter, SiRedux, SiTailwindcss } from "react-icons/si";
+import {
+  SiReactrouter,
+  SiRedux,
+  SiTailwindcss,
+  SiDrizzle,
+  SiLucia,
+  SiShadcnui,
+} from "react-icons/si";
 import { TbApi, TbBrandNextjs } from "react-icons/tb";
+import { CiDatabase } from "react-icons/ci";
 
 const projects_data = [
   {
     id: "1",
+    name: "Cilas",
+    createdAt: "May 2024 - In Progress",
+    imagePATH: "/images/cilas.png",
+    description:
+      "Content management system for Cairo Institute of Liberal Arts and Sciences",
+    technologies: [
+      { name: "Next.js", icon: <TbBrandNextjs /> },
+      { name: "tailwind", icon: <SiTailwindcss /> },
+      { name: "shadcn", icon: <SiShadcnui /> },
+      { name: "Drizzle", icon: <SiDrizzle /> },
+      { name: "Neon", icon: <CiDatabase /> },
+      { name: "Lucia", icon: <SiLucia /> },
+    ],
+    projectLink: "salahmohsen.com",
+  },
+  {
+    id: "2",
     name: "Portfolio",
     createdAt: "Jan 2024",
     imagePATH: "/images/portfolio.svg",
@@ -17,7 +42,7 @@ const projects_data = [
     projectLink: "salahmohsen.com",
   },
   {
-    id: "2",
+    id: "3",
     name: "Couply",
     createdAt: "Jan 2024",
     imagePATH: "/images/couply.svg",
@@ -31,7 +56,7 @@ const projects_data = [
     projectLink: "https://couply.salahmohsen.com/",
   },
   {
-    id: "3",
+    id: "4",
     name: "SLICE",
     createdAt: "Sep 2023",
     imagePATH: "/images/slice.svg",
